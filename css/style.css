@@ -16,7 +16,10 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
 }
+
+
 .mail>a{
     color: #222222
 }
@@ -31,6 +34,8 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
 
 .image{
     margin-right: 5px;
@@ -52,6 +57,8 @@ body{
     background-color: #F0F0F0;
     cursor: pointer;
 }
+
+
 
 
 
@@ -220,3 +227,68 @@ ul>a{
 }
 
 
+
+
+.profile-info{
+
+    height: 470px;
+    width: 360px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:  -4px 0 .7em rgba(0,0,0,0.35);
+    position: absolute;
+    background-color: white;
+    right: 10px;
+    top: 70px;
+    display: none;
+   
+}
+
+.upper{
+    display:flex;
+    justify-content:center;
+}
+
+
+.menu-info{
+    height: 470px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:  -4px 0 .7em rgba(0,0,0,0.35);
+    position: absolute;
+    background-color: white;
+    right: 10px;
+    top: 70px;
+    display: none;
+}
+
+
+.verticalBar{
+    width: 1px;
+    height: 30px;
+    border: 1px solid black;
+    border-left : none;
+    opacity: 0.5;
+    
+}
+
+.inputHidden{
+    height: 100%;
+    width: 40px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: calc(50% - 25px);
+    opacity: 0.5;
+    right: 4%;
+    display: none;
+}
+.fa-times{
+    font-size: 30px;
+    font-weight: 100;
+}
+.fa-times:hover{
+    cursor: pointer;
+
+}
