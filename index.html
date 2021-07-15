@@ -4,126 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>2nd pj</title>
+    <title>Document</title>
 </head>
-<body>
+<body id="body">
 
+    <div class="buttonContainer">
+        <button  class="toOtherbutton button_style">US</button>
+    </div>
+    
 
-    <div class="top">
-        <div class="top-navigator mail">
-            <a href="">
-                Gmail
-            </a>
+    <div class="timeInfo">
+        <h1  id="time">00:00:00</h1>
+        <div class="alarm-container">
+            <h1 id="alarm">
+                <span class="al al-hour hour">
+                    00
+                </span>:
+                <span class="al al-min">
+                    00
+                </span>:
+                <span class="al al-sec">
+                    00
+                </span>
+            </h1>
+            <button class="starter button_style">start</button>
         </div>
-        <div class="top-navigator image">
-            <a href="">
-                이미지
-            </a>
-        </div>
-        <div class="top-navigator menu">
-            <i class="fas fa-th"></i>
-            <div class="menu-info"></div>
-           <div class="up">
-               <!--각각 앞에 이미지 추가-->
-               <span class="acc">Google계정</span>
-               <span class="search">검색</span>
-               <span class="map">지도</span>
-               <span class="youtube">YouTube</span>
-               <span class="play">Play</span>
-               <span class="news">뉴스</span>
-
-           </div>
-           <div class ="mid">
-               <!--각각 앞에 이미지 추가-->
-               <span class="doc">문서</span>
-               <span class="ss">스프레드시트</span>
-               <span class="ppt">프레젠테이션</span>
-           </div>
-           <div class ="bot">
-            <button class="etc">기타 Google 앱 및 제품</button>
-           </div>
+        <div class="stopwatch-container">
+            <h1 id="stopWatch">
+                <span class="sw sw-hour hour">
+                00
+            </span>:
+            <span class= "sw sw-min">
+                00
+            </span>:
+            <span class="sw sw-sec">
+                00
+            </span>
+        </h1>
+        <button class="starter button_style">start</button>
 
         </div>
-        <div class="top-navigator profile">
-            <div class="decorater">
-                <span class="name">동관</span>
-            </div>
-            <div class="profile-info">
-                <div class ="roof">
-                    <span class ="namee">동관</span>
-                    <span class ="nameee">김동관</span>
-                    <span class ="acc">gwan199634@gmail.com</span>
-                    <button class="account-prob">Google 계정관리</button>
-                </div>
-                <div class="mid">
-                <button class="account-add">다른계정추가</button>
-                </div>
-                <div class="bot">
+        
 
-                <button class="account-logout">모든 계정에서 로그아웃</button>
-                <ul class="terma">
-                    <a href=""><li>개인정보처리방침</li></a>
-                    <a href=""><li>서비스약관</li></a>
-                    
-                </ul>
-                </div>
-            
-            </div>
+    </div>
+    
+
+
+
+    <div class="option-container">
+        <div class="button_style Alarm">
+            <span>Alarm</span>
         </div>
 
 
-                
-                
+        <button class="stopwatch button_style">Stop watch
+        </button>
     </div>
 
 
-
-    <div class="main">
-        <div class="main-contents logo">
-            <img class="logo_real" src="image/google.svg" alt="logo">
-        </div>
-        <div class="main-contents search-bar" alt="검색" aria-label="검색" label="검색">
-            <i class="fas fa-search"></i>
-            <input class="search" type="text">
-
-            <div class="inputHidden">
-                <i class="fas fa-times"></i>
-                <div class="verticalBar"></div>
-            </div>
-            
-            <div class="search-options">
-                <i class="fas fa-keyboard"></i>
-                <i class="fas fa-microphone"></i>
-            </div>
-        </div>
-        <div class="main-contents options">
-            <button class="google-search">Google 검색</button>
-            <button class="feeling-lucky">I'm Feeling Lucky</button>
-        </div>
-    </div>
+    
 
 
-    <div class="bottom">
-        <div class="bottom-child bottom-upper-part">
-            <span class="country">대한민국</span>
-        </div>
-        <div class="bottom-child bottom-lower-part">
-
-            <ul class= "terms">
-                <a href=""><li>Google 정보</li></a>
-                <a href=""><li>광고</li></a>
-                <a href=""><li>비즈니스</li></a>
-                <a href=""><li>검색의 원리</li></a>
-            </ul>
-            <ul class="terms">
-                <a href=""><li>개인정보처리방침</li></a>
-                <a href=""><li>약관</li></a>
-                <a href=""><li>설정</li></a>
-            </ul>
-
-        </div>
-    </div>
-    <script src="./js/index.js"></script>
-</body>
+    <script src="./js/clock.js"></script>
+</body> 
 </html>
