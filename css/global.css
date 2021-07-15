@@ -1,0 +1,22 @@
+@import "reset.css";
+@import "style.css";
+
+
+
+*{
+    box-sizing: border-box;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+  
+    font-weight: 400;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+
